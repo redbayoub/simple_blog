@@ -1,0 +1,318 @@
+.top_header{
+  background-color: #282c34;
+  color: white;
+}
+
+
+.fileds_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.fileds_nav li {
+    float: left;
+}
+
+.fileds_nav li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.fileds_nav li a:hover{
+    background-color: #4444ff;
+    color: white;
+}
+
+.fileds_nav li a.active {
+    background-color: #4444ff;
+    color: white;
+}
+
+.fileds_nav{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+
+body {
+  background-color: #c4cbdb;
+  margin:0px;
+  font-family: arial,serif;
+  height: 98%;
+}
+
+
+
+.mostVisit{
+  padding: 5px;
+  border: 1px solid gray;
+
+  margin: 0;
+  margin-right: 5px;
+  background-color: white;
+  width: 20%;
+  display: block;
+  float: right;
+}
+
+.subjects {
+  padding: 5px;
+  border: 1px solid gray;
+
+  margin: 0;
+  margin-left: 5px;
+  overflow: auto;
+  background-color: white;
+  width: 75%;
+  display: block;
+
+}
+
+.subj_content {
+  padding: 5px;
+  border: 1px solid gray;
+  margin: 0;
+  margin-left: 5px;
+  margin-top: 10px;
+  overflow: auto;
+  background-color: white;
+  width: 75%;
+  display: block;
+}
+
+
+
+.options_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    width: 16%;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+    background-color: white;
+    float: left;
+}
+
+.options_nav li a {
+    display: block;
+    color: black;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+
+.options_nav li a:hover {
+    background-color: #4444ff;
+    color: white;
+}
+
+.options_nav li a.active {
+    background-color: #4444ff;
+    color: white;
+}
+
+
+
+.content h3{
+  color: #4444ff;
+  margin-top: 0px;
+  padding-left: 10px;
+  /*margin: 0px 5px 5px 0px;
+  padding-left: 10px;*/
+}
+
+.content {
+  margin-left:18%;
+  background-color: white;
+  padding-left: 10px;
+}
+
+.Note{
+  color: red;
+  font-style: oblique;
+}
+
+.message {
+  color: blue;
+  font-weight: bold;
+}
+
+.table_list table{
+  margin: 0 20px 0;
+}
+
+.table_list th {
+  background-color: #4444ff;
+  color: white;
+}
+
+.table_list tr:nth-child(even) {
+  background-color: #f2f2f2 ;
+}
+
+.table_list td:nth-last-of-type(1)	 {
+  padding: 0;
+}
+
+.table_list table, td,th {
+  text-align: center;
+  padding: 10px;
+}
+.actions {
+  list-style-type: none;
+  /*padding-right: 5px;*/
+  align-content: space-between;
+}
+.subject,.writer_part {
+  clear: left;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.writer_part{
+  margin-top: 10px;
+}
+.subject img{
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  float:left;
+  margin-bottom: 5px;
+  width:120px;
+  height:120px;
+}
+.subject,.writer_part h4 {
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+}
+
+.subj_info {
+  color: #808080;
+}
+
+.writer_part img{
+  border-color: black;
+  border-width: 1px;
+  border-radius: 500px;
+  padding-right: 5px;
+  padding-left: 5px;
+  float:left;
+  margin-bottom: 5px;
+  width:120px;
+  height:120px;
+}
+
+
+ul.pagination{
+  background-color: white;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 35%;
+}
+
+.pagination li {display: inline;}
+
+.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination li a.active {
+    background-color: #4444ff;
+    color: white;
+}
+.form_general {
+  margin: 15px;
+}
+.form_general input {
+  margin: 5px 20px 5px;
+}
+
+.form_general textarea {
+    margin:  5px 20px 5px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.form_general textarea:focus {
+  border: 2px solid #4444ff;
+}
+
+.form_general select {
+    margin:  5px 20px 5px;
+    padding: 5px ;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.form_general select:focus {
+  border: 2px solid #4444ff;
+}
+
+.form_general input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4444ff;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.form_general input:focus {
+    border: 2px solid #4444ff;
+}
+.login {
+  width: 20%;
+  margin: auto;
+}
+
+.login form{
+  background-color: white;
+  padding: 10px;
+    width: 70%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #262626;
+  color: white;
+}
+
+.page_not_exist {
+  background-color: #ff8080;
+  color: white;
+  height: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.page_not_exist p{
+  vertical-align: middle;
+}
